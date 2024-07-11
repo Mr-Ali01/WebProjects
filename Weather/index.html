@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(66, 64, 64); ">
+    <div class="card-container">
+        <div class="card-items">
+            <div class="search-box">
+                <input type="text" name="search" class="search-bar" placeholder="Enter city name" spellcheck="false">
+                <button  class="search-icon"><img src="images/search.png" ></button>
+            </div>
+            <div class="error"><p>
+                Invailid city name
+            </p></div>
+            <div class="weather">
+                <div class="weather-image">
+                    <img src="images/clouds.png" class="weather-img">
+                </div>
+                
+                <div class="weather-temp">
+                    <p class="temp">7°c</p>
+                    <p class="city-name">New York</p>
+                </div>
+                <div class="weather-desc">
+                    <div class="humidity-desc">
+                        <img src="images/humidity.png">
+                        <div class="humidity-details">
+                            <p class="humidity-percent">48%</p>
+                            <p class="humidity-name">Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="wind-desc">
+                        <img src="images/wind.png">
+                        <div class="wind-details">
+                            <p class="wind-percent">10.29 km/h</p>
+                            <p class="wind-name">Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

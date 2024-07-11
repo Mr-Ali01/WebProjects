@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.card-items{
+    width: 400px;
+    /* border: 2px solid green; */
+    border-radius: 1rem;
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 1rem;
+}
+
+.search-bar{
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    background: #ebfffc;
+    width: 300px;
+    height: 40px; 
+    text-align: left;
+    padding-left: 10px
+}
+.search-icon{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon img{
+    width: 20px;
+}
+.weather{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-temp{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+}
+.temp{
+    color: aliceblue;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bold;
+}
+.city-name{
+    color: aliceblue;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.weather-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 2.1rem;
+}
+.humidity-desc{
+    display: flex;
+    gap: 0.5rem;
+}
+.humidity-desc img{
+    width: 40px;
+    height: 35px;
+}
+.humidity-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.humidity-percent{
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.humidity-name{
+    color: aliceblue;
+}
+.wind-desc{
+    display: flex;
+    gap: 0.5rem;
+}
+.wind-desc img{
+    width: 40px;
+    height: 35px;
+}
+.wind-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.wind-percent{
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.wind-name{
+    color: aliceblue;
+}
+
+.error{
+    margin-left: 2rem;
+    color: aliceblue;
+    font-size: 1.3rem;
+    display: none;
+}

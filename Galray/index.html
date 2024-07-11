@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery with Lightbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="images/image1.jpeg" alt="Image 1" class="gallery-item">
+        <img src="images/image2.jpeg" alt="Image 2" class="gallery-item">
+        <img src="images/image3.jpeg" alt="Image 3" class="gallery-item">
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

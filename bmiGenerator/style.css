@@ -1,0 +1,53 @@
+*{
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box
+}
+.nav-bar{
+width: 100%;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+background-color: rgb(209, 207, 207);
+}
+.home{
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+width: 100px;
+height: 30px;
+}
+.youtube{
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+width: 120px;
+height: 30px;
+}
+.container{
+width: 100%;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+background-color: gray;
+}
+.form-container{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+.button1{
+width: 150px;
+font-size: 1.5rem;
+
+margin-left: 2.5rem;
+}
+#weight-guide{
+display: flex;
+flex-direction: column;
+font-weight: 700;
+gap: 1rem;
+}
